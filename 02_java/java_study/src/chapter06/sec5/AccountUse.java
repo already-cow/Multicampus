@@ -7,10 +7,12 @@ public class AccountUse {
 		Account dad = new Account();
 		dad.name = "홍길동";
 		dad.accountName = "튼튼적금";
-		dad.balance = 1000;
+		dad.balance = 5000;
 
-		dad.deposit();
-		dad.widthdraw();
+		dad.deposit(3000);
+		dad.widthdraw(2000);
+
+		System.out.println(dad);
 	}
 
 }
