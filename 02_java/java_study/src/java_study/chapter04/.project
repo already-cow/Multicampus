@@ -3,6 +3,7 @@
 	<name>chapter04</name>
 	<comment></comment>
 	<projects>
+		<project>new</project>
 	</projects>
 	<buildSpec>
 	</buildSpec>
