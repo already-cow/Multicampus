@@ -31,6 +31,7 @@ public class Account { // 지역변수 : 갈색 멤버변수 : 파란색
 
 	public void setMoney(int money) {
 		this.money = money;
+
 	}
 
 	// Generate to String() ..

@@ -12,6 +12,7 @@ public class AccountUse {
 
 		System.out.println(a2.getmoney());
 
+		
 	}
 
 }
