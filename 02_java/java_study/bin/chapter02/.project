@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>chapter02</name>
+	<comment></comment>
+	<projects>
+		<project>chapter03</project>
+		<project>chapter04</project>
+		<project>chapter05</project>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+</projectDescription>
