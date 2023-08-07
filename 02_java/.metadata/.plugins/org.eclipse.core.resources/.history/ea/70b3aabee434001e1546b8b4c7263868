@@ -1,0 +1,22 @@
+package chapter06.sec04;
+
+public class BuildHous {
+	public static void main(String[] args) {
+		Block block1 = new Block();
+		block1.x = 50;
+		blcok1.y = 50;
+		blcok1.color = "회색";
+
+		System.out.println(block1);
+
+		Blcok blcok2 = new Block();
+		block2.x = 150;
+		blcok2.y = 150;
+		blcok2.color = "파랑색";
+
+		System.out.println(block2);
+
+		block1.put();
+		block2.put();
+	}
+}
