@@ -1,0 +1,23 @@
+package java_study.chapter04;
+
+import java.util.Scanner;
+
+public class IfTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("요일 입력: 주중 1) 주말2) 공휴일3)");
+
+		int data = sc.nextInt();
+		if (data == 1) {
+			System.out.println("열심히 공부하자.");
+		} elseif (data ==2){
+			
+		}
+		else {
+			System.out.println("열심히 놀아보자.");
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+package java_study.chapter04;
+
+import java.util.Scanner;
+
+public class IfTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("요일 입력: 주중 1) 주말2 >> " + data);
+		int data = sc.nextInt();
+
+	}
+
+}

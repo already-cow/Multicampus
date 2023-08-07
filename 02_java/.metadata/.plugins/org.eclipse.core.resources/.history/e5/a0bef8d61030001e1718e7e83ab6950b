@@ -1,0 +1,18 @@
+package java_study.chapter04;
+
+import java.util.Date;
+
+public class TimeEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 자동 import : ctrl + shift + b
+		Date date = new Date(); // class 이름은 같으나 package 다름
+		int hour = date.getHours();
+		int min = date.getMinutes();
+		int sec = date.getSeconds();
+
+		System.out.prints("%i시 %i분 %i초", hour, min, sec);
+	}
+
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        /* 가상선택자 hover 띄어쓰기 금지 */
+        text-decoration: underline;
+        background-color: bisque;
+      }
+      h1:hover {
+        cursor: all-scroll;
+      }
+      tr:hover {
+        background-color: lemonchiffon;
+      }
+      tr:nth-child(2n) {
+        background-color: lightblue;
+      }
+      tr:nth-child(2n + 1) {
+        background-color: lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>눌러서 들어가기</h1>
+    <a href="#">네이버</a>
+    <table border="1px">
+      <tr>
+        <td>title</td>
+        <td>hover test</td>
+      </tr>
+      <tr>
+        <td>title</td>
+        <td>hover test</td>
+      </tr>
+      <tr>
+        <td>title</td>
+        <td>hover test</td>
+      </tr>
+      <tr>
+        <td>title</td>
+        <td>hover test</td>
+      </tr>
+      <tr>
+        <td>title</td>
+        <td>hover test</td>
+      </tr>
+    </table>
+  </body>
+</html>

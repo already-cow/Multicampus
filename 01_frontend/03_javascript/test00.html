@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      // 전역변수 : 최상위 레벨에서 정의
+      // 지역변수 : 하위 레벨에서 정의
+      let x = 10;
+      console.log(x);
+
+      function test() {
+        let y = 20; // 함수블럭 안에서 선언되었으므로 지역변수
+        console.log(x); // 지역변수 x 출력
+      }
+
+      console.log(x); // 지역변수 x 출력
+      test();
+    </script>
+  </head>
+  <body></body>
+</html>

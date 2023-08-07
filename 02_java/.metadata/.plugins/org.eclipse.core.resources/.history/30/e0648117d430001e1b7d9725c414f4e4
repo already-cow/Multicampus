@@ -1,0 +1,19 @@
+package java_study.chapter05;
+
+public class ArrayEx3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] names = new String[2]; // 참조형 null 4byte
+		names[0] = "홍길동";
+		names[1] = "김길동";
+		for (string x : names) {
+			System.out.println(x);
+		}
+
+		System.out.println("개수: " + names.length);
+		String[] names2;
+		names2 = new String[] { "a", "b" }; // new String[] 필수
+	}
+
+}

@@ -1,0 +1,21 @@
+package java_study.chapter04;
+
+import java.util.Scanner;
+
+public class SwitchEx3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner food = new Scanner(System.in);
+		switch (key) {
+		case value:
+
+			break;
+
+		default:
+			break;
+		}
+	}
+
+}

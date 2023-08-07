@@ -1,0 +1,19 @@
+.footer {
+  background-color: azure;
+}
+.jumbotron {
+  color: white;
+  background-image: url(../../bs4/image/pastel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+a.page-link {
+  border-width: 0px;
+}
+.avatar-sm {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
