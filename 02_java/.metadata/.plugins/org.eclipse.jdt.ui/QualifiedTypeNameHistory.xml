@@ -6,6 +6,17 @@
     <fullyQualifiedTypeName name="chapter06.sec5.Account"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="chapter07.sec01.Account"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="chapter07.sec02.Account"/>
+    <fullyQualifiedTypeName name="chapter07.sec03.ComputerRun"/>
+    <fullyQualifiedTypeName name="chapter07.sec03.Computer"/>
+    <fullyQualifiedTypeName name="javax.xml.crypto.dsig.spec.C14NMethodParameterSpec"/>
+    <fullyQualifiedTypeName name="chapter08.sec01.Bbs"/>
+    <fullyQualifiedTypeName name="chapter07.sec04.Tv"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="chapter08.sec01.Television"/>
+    <fullyQualifiedTypeName name="chapter08.sec02.SingletonEx"/>
+    <fullyQualifiedTypeName name="chapter04.IfTest"/>
+    <fullyQualifiedTypeName name="chapter08.sec01.DmbCellPhone"/>
+    <fullyQualifiedTypeName name="chapter08.sec02.People"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,8 @@
+package chapter08.sec01;
+
+public class Bbs {
+	private String title;
+	private String content;
+	private String writer;
+
+}

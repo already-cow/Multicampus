@@ -1,0 +1,7 @@
+package chapter08.sec01;
+
+public class BbsMaker {
+	public static void main(String[] args) {
+
+	}
+}

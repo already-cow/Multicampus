@@ -1,0 +1,5 @@
+package chapter08.sec02;
+
+public class Student extends People {
+	public int studentNo;
+}

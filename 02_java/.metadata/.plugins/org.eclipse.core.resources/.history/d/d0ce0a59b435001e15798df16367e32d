@@ -1,0 +1,9 @@
+package chapter08.sec02;
+
+public class Student extends People {
+	public int studentNo;
+
+	public student(String name, String ssn, int studentNo) {
+		this.studentNo = studentNo;
+	}
+}

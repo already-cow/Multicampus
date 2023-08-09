@@ -1,0 +1,11 @@
+package chapter08.sec01;
+
+public class Television {
+	static String company = "Samsung";
+	static String modeal = "LCD";
+	static String info;
+
+	static {
+		info = company + "-" + model;
+	}
+}

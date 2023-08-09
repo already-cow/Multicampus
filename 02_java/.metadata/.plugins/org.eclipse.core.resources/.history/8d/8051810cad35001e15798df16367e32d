@@ -1,0 +1,14 @@
+package chapter08.sec01;
+
+public class DmbCellPhtonEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// DmbCellPhone 객체 생성
+		DmbCellPhone dmbCellPhone = new DmbCellPhone("자바폰", "검정", 10)
+	
+	
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package chapter08.sec02;
+
+public class SingletonEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Singleton obj1 = Singleton.getInstance();
+		Singleton obj2 = Singleton.getInstance();
+
+		System.out.println(obj1);
+		System.out.println(obj2);
+	}
+
+}

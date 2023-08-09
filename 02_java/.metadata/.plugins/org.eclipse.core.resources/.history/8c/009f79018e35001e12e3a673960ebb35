@@ -1,0 +1,20 @@
+package chapter08.sec01;
+
+public class BbsMaker {
+	public static void main(String[] args) {
+		Bbs b1 = new Bbs("java", "fun java", "park");
+		Bbs b2 = new Bbs("jsp", "fun jsp", "lee");
+		Bbs b3 = new Bbs("spring", "fun spring", "kim");
+
+		System.out.println(b1);
+		System.out.println(b2);
+		System.out.println(b3);
+
+		Bbs[] BbsArr = new Bbs[3];
+		for (int i = 0; i < BbsArr.length; i++) {
+			BbsArr[i] = new Bbs(null, null, null);
+		}
+		
+		Bbs[] BbsArr = {};
+	}
+}
