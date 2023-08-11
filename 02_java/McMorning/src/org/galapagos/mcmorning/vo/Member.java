@@ -1,23 +1,19 @@
+
 package org.galapagos.mcmorning.vo;
 
 import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
 @Getter
 @Setter
-@ToString
-@EqualsAndHashCode
-
-@NoargsConstructor
-@RequiredArgsConstructor
-@AllArgsConstructor
-
-public class TestDTO {
-	private String user;
+public class Member {
+	private String userid;
 	private String password;
 	private String name;
 	private String email;
