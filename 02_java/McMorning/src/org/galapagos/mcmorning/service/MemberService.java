@@ -2,11 +2,12 @@ package org.galapagos.mcmorning.service;
 
 import org.galapagos.mcmorning.cli.input;
 import org.galapagos.mcmorning.dao.MemberDao;
+import org.galapagos.mcmorning.dao.MemberListDao;
 import org.galapagos.mcmorning.exception.UseridCountOverException;
 import org.galapagos.mcmorning.vo.Member;
 
 public class MemberService {
-	MemberDao dao = new MemberDao();
+	MemberDao dao = new MemberListDao();
 
 	public void singup() {
 		// Member info insert

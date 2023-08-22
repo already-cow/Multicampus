@@ -35,7 +35,6 @@
     <fullyQualifiedTypeName name="javax.imageio.stream.IIOByteBuffer"/>
     <fullyQualifiedTypeName name="java.rmi.RemoteException"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="org.galapagos.mcmorning.dao.MemberDao"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="javax.print.DocFlavor.INPUT_STREAM"/>
@@ -44,4 +43,5 @@
     <fullyQualifiedTypeName name="org.galapagos.mcmorning.cli.input"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="org.galapagos.mcmorning.exception.UseridCountOverException"/>
+    <fullyQualifiedTypeName name="org.galapagos.mcmorning.dao.MemberDao"/>
 </qualifiedTypeNameHistroy>
