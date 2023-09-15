@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class JDBCUtill {
+public class JDBCUtil {
 	static Connection conn = null;
 	static {
 		try {
@@ -32,4 +32,5 @@ public class JDBCUtill {
 			e.printStackTrace();
 		}
 	}
+
 }
