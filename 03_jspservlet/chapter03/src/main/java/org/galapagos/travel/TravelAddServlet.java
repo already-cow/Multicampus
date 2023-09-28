@@ -3,6 +3,7 @@ package org.galapagos.travel;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -44,7 +45,7 @@ public class TravelAddServlet extends HttpServlet {
 							.build();
 		
 		// 3. DAO로 db에 저장
-		
+
 		
 		// ------------------------------- Servlet 의 역할
 		// 4. 결과를 사용자에게 출력
