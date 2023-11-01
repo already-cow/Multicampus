@@ -4,6 +4,11 @@
   <artifactId>chapter09</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+    <parent>
+	  	<groupId>org.galapagos</groupId>
+	<artifactId>base</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+  </parent>
   <build>
     <plugins>
       <plugin>
