@@ -2,6 +2,7 @@ package org.galapagos.mapper;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Select;
 import org.galapagos.domain.BoardVO;
 
 public interface BoardMapper {
@@ -17,5 +18,4 @@ public interface BoardMapper {
 	public int delete(Long bno);
 
 	public int update(BoardVO board);
-
 }

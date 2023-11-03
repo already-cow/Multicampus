@@ -12,19 +12,7 @@
 	<form action="/sample/exUploadPost" method="post"
 		enctype="multipart/form-data">
 		<div>
-			<input type="file" name="files" />
-		</div>
-		<div>
-			<input type="file" name="files" />
-		</div>
-		<div>
-			<input type="file" name="files" />
-		</div>
-		<div>
-			<input type="file" name="files" />
-		</div>
-		<div>
-			<input type="file" name="files" />
+			<input type="file" name="files" multiple="multiple" />
 		</div>
 		<div>
 			<input type="submit" />

@@ -119,7 +119,7 @@ public class SampleController {
 		HttpHeaders header = new HttpHeaders();
 		header.add("Content-Type", "application/json;charset=UTF-8");
 
-		return new ResponseEntity<>(msg, header, HttpStatus.OK);
+		return new ResponseEntity<>(msg, header, HttpStatus.OK); // 200 응답
 	}
 
 	@GetMapping("/exUpload")
@@ -130,8 +130,9 @@ public class SampleController {
 	@PostMapping("/exUploadPost")
 	public void exUploadPost(ArrayList<MultipartFile> files) {
 		for (MultipartFile file : files) {
-			if(file.isEmpty()) continue;
-			
+			if (file.isEmpty()) // 파일 없어도 허용
+				continue;
+
 			log.info("---------------------------------");
 			log.info("name:" + file.getOriginalFilename());
 			log.info("size:" + file.getSize());
@@ -148,6 +149,11 @@ public class SampleController {
 				e.printStackTrace();
 			}
 		}
+	}
+
+	@GetMapping("/ex10")
+	public void ex10() {
+		throw new RuntimeException("예외 실험");
 	}
 
 }
